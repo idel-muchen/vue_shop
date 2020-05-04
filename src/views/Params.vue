@@ -21,7 +21,7 @@
                     :props="{ expandTrigger: 'hover',value:'cat_id',label:'cat_name',children:'children' }"
                     @change="parentCateChange"
                     clearable>
-            </el-cascader>
+                </el-cascader>
             </el-col>
         </el-row>
         <el-tabs v-model="activeName" @tab-click="handleClick">

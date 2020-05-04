@@ -2,7 +2,8 @@ import Vue from 'vue'
 import { Button, Form, FormItem, Input, Message, Header,
   Container, Aside, Main, Menu, MenuItem, Submenu,
   MenuItemGroup, Dialog, MessageBox, Breadcrumb, BreadcrumbItem, Card, Row, Col,
-  Table, TableColumn, Switch, Tooltip, Pagination, Tag, Tree, Select, Option, Cascader, Alert, Tabs, TabPane } from 'element-ui'
+  Table, TableColumn, Switch, Tooltip, Pagination, Tag, Tree,
+  Select, Option, Cascader, Alert, Tabs, TabPane, Step, Steps, CheckboxGroup, Checkbox, Upload, Timeline, TimelineItem } from 'element-ui'
 Vue.use(Button)
 Vue.use(Form)
 Vue.use(FormItem)
@@ -34,6 +35,13 @@ Vue.use(Cascader)
 Vue.use(Alert)
 Vue.use(Tabs)
 Vue.use(TabPane)
+Vue.use(Step)
+Vue.use(Steps)
+Vue.use(CheckboxGroup)
+Vue.use(Checkbox)
+Vue.use(Upload)
+Vue.use(Timeline)
+Vue.use(TimelineItem)
 // 把弹框组件挂在在vue实例上
 Vue.prototype.$message = Message
 Vue.prototype.$confirm = MessageBox.confirm
